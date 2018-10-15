@@ -24,6 +24,18 @@ public class DeveloperTest {
     }
 
     @Test
+    public void cannotChangeNameToNull(){
+        developer.setName(null);
+        assertEquals("Augusta Ada", developer.getName());
+    }
+
+    @Test
+    public void cannotChangeNameToEmpty(){
+        developer.setName("");
+        assertEquals("Augusta Ada", developer.getName());
+    }
+
+    @Test
     public void hasNInumber(){
         assertEquals("AA300", developer.getNINumber());
     }
