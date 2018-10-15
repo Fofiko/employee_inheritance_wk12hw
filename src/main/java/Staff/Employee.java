@@ -3,12 +3,12 @@ package Staff;
 public abstract class Employee {
 
     private String name;
-    private String INnumber;
+    private String NINumber;
     private double salary;
 
-    public Employee(String name, String INnumber, double salary){
+    public Employee(String name, String NINumber, double salary){
         this.name = name;
-        this.INnumber = INnumber;
+        this.NINumber = NINumber;
         this.salary = salary;
     }
 
@@ -20,12 +20,12 @@ public abstract class Employee {
         this.name = name;
     }
 
-    public String getINnumber() {
-        return INnumber;
+    public String getNINumber() {
+        return NINumber;
     }
 
-    public void setINnumber(String INnumber) {
-        this.INnumber = INnumber;
+    public void setNINumber(String NINumber) {
+        this.NINumber = NINumber;
     }
 
     public double getSalary() {
