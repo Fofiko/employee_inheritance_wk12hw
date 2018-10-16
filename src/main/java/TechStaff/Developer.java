@@ -1,6 +1,4 @@
-package Staff.TechStaff;
-
-import Staff.Employee;
+package TechStaff;
 
 public class Developer extends Employee{
     Developer developer;
